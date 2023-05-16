@@ -54,24 +54,25 @@ import Footer from "../components/Footer.astro";
       <ul role="list" class="link-card-grid">
         <div id="about">
           <Card
-            title="Are you passionate about dancing?"
+            title="Wanna dance?"
             body="Join us for an unforgettable evening of West Coast Swing!"
           />
         </div>
         <img class="rounded-lg" src="/2.jpg" />
-        <div id="venue" class="bg-white rounded-lg p-4 shadow mt-4">
-          <h3 class="text-xl font-bold mb-2">Venue</h3>
-          <p class="text-gray-700">
-            Tower Swing is located at the highs' of REDI. Easily to get by public transportations and amazing view over Kalasatama!
-          </p>
-        </div>
+        <Card
+            title="Venue"
+            body="Tower Swing is located at the highs' of REDI. Easily to get by public transportations and amazing view over Kalasatama!"
+          />
         <img class="rounded-lg" src="/3.jpg" />
         <!-- <img class="rounded-lg" src="/4.jpg" /> -->
+        <Card
+            title="More?"
+            body="Sauna and hot tub are ready for use from XX.XXpm to XX.XXpm!"
+          />
         <img class="rounded-lg" src="/5.jpg" />
         <img class="rounded-lg" src="/7.jpg" />
       </ul>
     </div>
-    
   </main>
   <Footer />
 </Layout>
